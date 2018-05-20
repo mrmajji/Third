@@ -33,6 +33,7 @@ public class ThirdClass {
 	public void clickSearchButton(){
 
 		dr.findElement(By.id("u_0_2")).click();
+		dr.close();
 
 	}
 
