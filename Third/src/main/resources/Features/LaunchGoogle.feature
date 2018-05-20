@@ -4,6 +4,7 @@
 Feature: LaunchGoogle
   Objective of this feature file is to launch google in firefox using selenium webdriver
 
+@Test
   Scenario: Launch Google
     Given User is able to launch firefox and redirect to facebook
     And User enters username and password in the search text box
